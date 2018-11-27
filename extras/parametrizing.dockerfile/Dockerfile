@@ -1,0 +1,2 @@
+ARG BASE=nginx
+FROM $BASE
