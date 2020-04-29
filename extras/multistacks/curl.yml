@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  curl:
+    image: "curlimages/curl"
+    command: ["curl", "nginx"]
+    networks:
+      - net
+
+networks:
+  net:
+    external: true
